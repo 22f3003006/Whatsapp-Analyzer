@@ -1,13 +1,6 @@
 pandas
 plotly
 streamlit
-yfinance
-pandas-datareader
-prophet
-zipfile
-re
 matplotlib
 seaborn
 nltk
-io
-os
