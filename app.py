@@ -22,8 +22,6 @@ def get_text_file(f):
         with f.open(list_of__txt_files[0]) as f:
             return f.read().decode("UTF-8")
 
-chat_txt = get_text_file("WhatsApp Chat with Shruti.zip")
-
 def preprocessing(chat_txt):
     messages = []
     for line in chat_txt.split('\n'):
